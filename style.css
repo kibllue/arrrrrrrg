@@ -1,0 +1,131 @@
+/* Resetando alguns estilos padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9bbd98;
+}
+
+footer {
+    text-align: end;
+    padding: 10px;
+    background-color: #5a765d;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 10%;
+}
+
+.inicio {
+    background-color: #9bbd98;
+}
+
+.inicio-container {
+    text-align: center;
+}
+
+#iniciarBtn {
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: #496547;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#iniciarBtn:hover {
+    background-color: #638160;
+}
+
+/* Tela de temas */
+.temas {
+    background-color: #9bbd98;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  /* título e botões em coluna */
+    height: 100vh; 
+    padding: 20px;
+    text-align: center;
+}
+
+.titulo-temas {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #333;
+    max-width: 80%; /* Limita a largura do título */
+}
+
+.temas .temas-container {
+    display: flex;
+    flex-direction: column;  /* Coloca os cartões em uma coluna */
+    justify-content: center;
+    align-items: center;
+    gap: 20px;  /* Espaçamento entre os cartões */
+}
+
+.cartao {
+    background-color: #496547;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    transition: transform 0.3s;
+    margin-bottom: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.cartao:hover {
+    transform: scale(1.1);
+}
+
+/* Tela do tema */
+.tema .conteudo-tema {
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    background-color: #496547;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.voltar-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #638160;
+}
+
+.voltar-btn:hover {
+    color: #3e563c;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+
