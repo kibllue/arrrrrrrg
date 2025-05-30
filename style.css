@@ -111,11 +111,11 @@ footer {
     background-color: transparent;
     border: none;
     cursor: pointer;
-    color: #638160;
+    color: #ffffff;
 }
 
 .voltar-btn:hover {
-    color: #3e563c;
+    color: #cce8c9;
 }
 
 h1 {
@@ -127,5 +127,4 @@ p {
     font-size: 18px;
     line-height: 1.6;
 }
-
 
