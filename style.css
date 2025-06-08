@@ -1,4 +1,10 @@
-/* Resetando alguns estilos padrões */
+
+.passero-one-regular {
+  font-family: "Passero One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -6,49 +12,50 @@
 }
 
 body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #9bbd98;
-}
-
-footer {
-    text-align: end;
-    padding: 10px;
-    background-color: #5a765d;
-    color: white;
-    position: relative;
-    bottom: 0;
-    width: 10%;
+    background-image: url(tela\ de\ inicio.png );
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .inicio {
-    background-color: #9bbd98;
+    background-image: url(fundo\ da\ pagina\ cartoes.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .inicio-container {
     text-align: center;
 }
 
+
 #iniciarBtn {
     padding: 15px 30px;
     font-size: 20px;
-    background-color: #496547;
+    background-color: #2ca38a;
     color: white;
     border: none;
-    border-radius: 5px;
-    cursor: pointer;    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 5px;   
+    cursor: pointer;
+    transition: transform 0.3s;
+    margin-bottom: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
 }
 
 #iniciarBtn:hover {
-    background-color: #638160;
+    transform: scale(1.03);
+    background-color: #247670;
 }
 
 /* Tela de temas */
 .temas {
-    background-color: #9bbd98;
+     background-image: url(fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,11 +65,14 @@ footer {
     text-align: center;
 }
 
-.titulo-temas {
-    font-size: 32px;
-    margin-bottom: 30px;
-    color: #333;
-    max-width: 80%; /* Limita a largura do título */
+.titulo-temas { 
+    text-align: center;
+    font-size: 45px;
+    background-color: transparent;
+    border: none;
+   font-family:"Passero One", sans-serif;
+    gap: 20px;
+    color: #2ca38a;
 }
 
 .temas .temas-container {
@@ -74,7 +84,7 @@ footer {
 }
 
 .cartao {
-    background-color: #496547;
+    background-color: #2ca38a;
     color: white;
     padding: 20px;
     border-radius: 10px;
@@ -84,11 +94,12 @@ footer {
     cursor: pointer;
     transition: transform 0.3s;
     margin-bottom: 20px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
 }
 
 .cartao:hover {
     transform: scale(1.1);
+    background-color: #247670;
 }
 
 /* Tela do tema */
@@ -96,35 +107,46 @@ footer {
     padding: 20px;
     width: 80%;
     max-width: 600px;
-    background-color: #496547;
+    background-color: #2ca38a;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     text-align: center;
 }
 
-.voltar-btn {
+
+  .voltar-btn {
     position: absolute;
     top: 20px;
     left: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
     font-size: 18px;
     background-color: transparent;
     border: none;
     cursor: pointer;
-    color: #ffffff;
+    color: #247670;
 }
 
 .voltar-btn:hover {
-    color: #cce8c9;
+    color: #2ca38a;
 }
 
 h1 {
-    font-size: 28px;
+    font-size: 40px;
     margin-bottom: 15px;
+    color: #ffffff;
+      font-family:"Passero One", sans-serif;
 }
 
 p {
     font-size: 18px;
     line-height: 1.6;
+    color: #ffffff;
+    text-align: center;
 }
+
+ul {
+    color: #ffffff; 
+   text-align: left;
+}
+
 
